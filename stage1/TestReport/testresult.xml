@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+  <userstory name="E2E">
+    <testapp name="OrderEntry">
+      <version>
+      </version>
+      <server>Development</server>
+      <profile>Integration</profile>
+    </testapp>
+    <testapp name="Office">
+      <version>
+      </version>
+      <server>Development</server>
+      <profile>Integration</profile>
+    </testapp>
+    <testcase name="BasicQuoteAndApprove_2267">
+      <result>1</result>
+      <start>3:39:47 AM</start>
+      <end>3:41:20 AM</end>
+      <log>Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: The playback failed to find the control with the given search properties. Additional Details: 
+TechnologyName:  'MSAA'
+ControlName:  'btnContinue'
+Instance:  '1'
+ControlType:  'Window'
+ ---  System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements IScreenElement pScreenElementStart, String bstrQueryId, Object  pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object    foundDescendants 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper String queryId 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId String queryId, Boolean resetSkipStep 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor String queryId 
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException COMException ex, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException COMException innerException, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException Exception exception, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException Exception exception, String queryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor String queryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.SearchTopLevelWindow ISearchArgument topLevelSearchArg, String topLevelElementQueryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTitleUpdatedTopLevelWindow ISearchArgument topLevelSearchArg, String queryId, IList`1 windowTitles 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTopLevelElement Boolean useCache, Boolean useCacheOnly, ISearchArgument searchArg, IList`1 windowTitles, Int32  timeLeft 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement Boolean useCache, ISearchArgument searchArg 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search ISearchArgument searchArg 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal  
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl. Find b__37  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Find  
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetPropertyPrivate String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.  c__DisplayClass3b. GetProperty b__3a  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.ALUtility.GetTechElementFromUITestControl UITestControl uiTestControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.ActionExecutorManager.GetActionExecutor UITestControl uiControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.  c__DisplayClass6. Click b__5  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control 
+   at TOG.WinUITest.OrderEntry.Agents.QuoteInformationUI.OneTimeUserEmail String email  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\OrderEntryWinUIAutoTest\OEAgents\QuoteInformationUI.cs:line 74
+   at OEAgents.InitializeStepsForOEAgents.OrderInformation_TypeOrderWithEmailQuote   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\OrderEntryWinUIAutoTest\OEAgents\InitializeStepsForOEAgents.cs:line 265
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.BasicQuoteAndApprove_2267   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 386</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 03.41.20.png</screen>
+    </testcase>
+    <testcase name="BasicQuoteAndVoid_2269">
+      <result>0</result>
+      <start>3:41:21 AM</start>
+      <end>3:48:32 AM</end>
+      <log>
+      </log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="MakeProofWithMix_2281">
+      <result>1</result>
+      <start>3:48:32 AM</start>
+      <end>3:52:09 AM</end>
+      <log>Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotFoundException: The playback failed to find the control with the given search properties. Additional Details: 
+TechnologyName:  'MSAA'
+ControlName:  'btnAddEmailAddress'
+Instance:  '1'
+ControlType:  'Window'
+ ---  System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements IScreenElement pScreenElementStart, String bstrQueryId, Object  pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object    foundDescendants 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper String queryId 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId String queryId, Boolean resetSkipStep 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor String queryId 
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapControlNotFoundException COMException ex, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowComException COMException innerException, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException Exception exception, IPlaybackContext context 
+   at Microsoft.VisualStudio.TestTools.UITesting.Playback.MapAndThrowException Exception exception, String queryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl..ctor String queryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.SearchTopLevelWindow ISearchArgument topLevelSearchArg, String topLevelElementQueryId 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTitleUpdatedTopLevelWindow ISearchArgument topLevelSearchArg, String queryId, IList`1 windowTitles 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetTopLevelElement Boolean useCache, Boolean useCacheOnly, ISearchArgument searchArg, IList`1 windowTitles, Int32  timeLeft 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.GetElement Boolean useCache, ISearchArgument searchArg 
+   at Microsoft.VisualStudio.TestTools.UITesting.SearchHelper.Search ISearchArgument searchArg 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindInternal  
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl. Find b__37  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Find  
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetPropertyPrivate String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.  c__DisplayClass3b. GetProperty b__3a  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.ALUtility.GetTechElementFromUITestControl UITestControl uiTestControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.ActionExecutorManager.GetActionExecutor UITestControl uiControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.  c__DisplayClass6. Click b__5  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control 
+   at TOG.WinUITest.OrderEntry.Agents.OrderDetail.OrderSummaryUI.AddEmailWithProof String email  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\OrderEntryWinUIAutoTest\OEAgents\OrderSummaryUI.cs:line 85
+   at OEAgents.Control.OEAssembleAgents.OrderSummary_AddProofEmail   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\OrderEntryWinUIAutoTest\OEAgents\Control\OEAssembleAgents.cs:line 474
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.MakeProofWithMix_2281   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 1439</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 03.52.09.png</screen>
+    </testcase>
+    <testcase name="MakeProofWithQuesion_2283">
+      <result>0</result>
+      <start>3:52:09 AM</start>
+      <end>3:56:19 AM</end>
+      <log>OrderNumber: 181423222</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ProofAproveAsIS_2236">
+      <result>1</result>
+      <start>3:56:19 AM</start>
+      <end>3:59:30 AM</end>
+      <log> br  System.Exception: Error retieving job
+   at TOG.WinUITest.Common.Utilities.PJMUtilities.GetJobStatus String barcode  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\Utilities\Utilities\PJMUtilities.cs:line 291
+   at TOG.WinUITest.Common.Utilities.PJMUtilities.RerouteJobByStatus String barcode, String status, Int32 loopCounts  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\Utilities\Utilities\PJMUtilities.cs:line 65
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.ProofAproveAsIS_2236   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 1139</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 03.59.30.png</screen>
+    </testcase>
+    <testcase name="ProofRequestAnother_2264">
+      <result>1</result>
+      <start>3:59:31 AM</start>
+      <end>4:03:09 AM</end>
+      <log> br  System.Exception: Error retieving job
+   at TOG.WinUITest.Common.Utilities.PJMUtilities.GetJobStatus String barcode  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\Utilities\Utilities\PJMUtilities.cs:line 291
+   at TOG.WinUITest.Common.Utilities.PJMUtilities.RerouteJobByStatus String barcode, String status, Int32 loopCounts  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\Utilities\Utilities\PJMUtilities.cs:line 65
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.ProofRequestAnother_2264   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 2012</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 04.03.09.png</screen>
+    </testcase>
+    <testcase name="ProofRequestWithTwoProofs_2282">
+      <result>0</result>
+      <start>4:03:09 AM</start>
+      <end>4:13:21 AM</end>
+      <log>OrderNumber: 181423228</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ProofVerifyWIP_2557">
+      <result>1</result>
+      <start>4:13:21 AM</start>
+      <end>4:27:04 AM</end>
+      <log>System.Exception: Barcode 18142323000001,Job status not PUL after 4 loops!
+   at TOG.WinUITest.Common.Utilities.PJMUtilities.RerouteJobByStatus String barcode, String status, Int32 loopCounts  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\Utilities\Utilities\PJMUtilities.cs:line 76
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.ProofVerifyWIP_2557   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 950</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 04.27.04.png</screen>
+    </testcase>
+    <testcase name="ProofWithChanges_2257">
+      <result>0</result>
+      <start>4:27:04 AM</start>
+      <end>4:41:12 AM</end>
+      <log>OrderNumber: 181423232</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ProofWithInternalReviewer_2234">
+      <result>0</result>
+      <start>4:41:12 AM</start>
+      <end>4:47:23 AM</end>
+      <log>OrderNumber: 181423234</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ProofWithInternalReviewer_2556">
+      <result>0</result>
+      <start>4:47:23 AM</start>
+      <end>4:54:36 AM</end>
+      <log>OrderNumber: 181423236</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ReworkQuote_2271">
+      <result>0</result>
+      <start>4:54:36 AM</start>
+      <end>5:00:18 AM</end>
+      <log>OrderNumber: 181423238</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ReworkQuoteAndPull_2273">
+      <result>1</result>
+      <start>5:00:18 AM</start>
+      <end>5:03:58 AM</end>
+      <log> br  Bill an order: 181423242 br  Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+Name:  'Rework'
+ControlType:  'Button'
+ ---  Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Window'
+ ---  System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements IScreenElement pScreenElementStart, String bstrQueryId, Object  pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object    foundDescendants 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper String queryId 
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId String queryId, Boolean resetSkipStep 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid Boolean waitForReady, Boolean refetch 
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid Boolean waitForReady, Boolean refetch 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant String queryId, Int32 maxDepth, Int32  timeLeft 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid Boolean waitForReady, Boolean refetch 
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid Boolean waitForReady, Boolean refetch 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetPropertyValuePrivate String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetPropertyPrivate String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.  c__DisplayClass3b. GetProperty b__3a  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty String propertyName 
+   at Microsoft.VisualStudio.TestTools.UITesting.ALUtility.GetTechElementFromUITestControl UITestControl uiTestControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.ActionExecutorManager.GetActionExecutor UITestControl uiControl 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.  c__DisplayClass6. Click b__5  
+   at Microsoft.VisualStudio.TestTools.UITesting.CodedUITestMethodInvoker.InvokeMethod T  Func`1 function, UITestControl control, Boolean firePlaybackErrorEvent, Boolean logAsAction 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate 
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click UITestControl control 
+   at TOG.WinUITest.OrderEntry.Agents.RetrieveUI.Rework String manageByName, String ordernum  in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\OrderEntryWinUIAutoTest\OEAgents\RetrieveUI.cs:line 67
+   at TOG.WinUITest.OrderEntry.TestCases.E2E.ReworkQuoteAndPull_2273   in c:\WeiMing\Workspaces\TOG\Novatus\Development\Testing\NovatusWinUIAuto\E2EWinUIAutoTest\TestCases\E2E.cs:line 155</log>
+      <screen>C:\\NewTestPass\\Screenshot\\2018-08-17 05.03.58.png</screen>
+    </testcase>
+    <testcase name="RouteAfterProofApproved_2555">
+      <result>0</result>
+      <start>5:03:58 AM</start>
+      <end>5:10:59 AM</end>
+      <log>OrderNumber: 181423244</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="TaxService3_10698">
+      <result>0</result>
+      <start>5:14:06 AM</start>
+      <end>5:16:34 AM</end>
+      <log> br  </log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="VerifyServiceBus_10477">
+      <result>0</result>
+      <start>5:16:34 AM</start>
+      <end>5:26:34 AM</end>
+      <log> br  Order number is: 181423248 br  </log>
+      <screen>
+      </screen>
+    </testcase>
+  </userstory>
+  <userstory name="OEP1">
+    <testapp name="OrderEntry">
+      <version>
+      </version>
+      <server>Development</server>
+      <profile>Integration</profile>
+    </testapp>
+    <testapp name="Office">
+      <version>
+      </version>
+      <server>Development</server>
+      <profile>Integration</profile>
+    </testapp>
+    <testcase name="ChargeShippingFlatOption_2444">
+      <result>0</result>
+      <start>5:26:39 AM</start>
+      <end>5:31:34 AM</end>
+      <log>
+      </log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="LoadCustomerInfo_2315">
+      <result>0</result>
+      <start>5:31:34 AM</start>
+      <end>5:32:08 AM</end>
+      <log>
+      </log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="PONumberRequired_2268">
+      <result>0</result>
+      <start>5:32:08 AM</start>
+      <end>5:33:16 AM</end>
+      <log>
+      </log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="QuoteWithTextCopy_2569">
+      <result>0</result>
+      <start>5:33:16 AM</start>
+      <end>5:43:57 AM</end>
+      <log>OrderNumber: 181423258</log>
+      <screen>
+      </screen>
+    </testcase>
+    <testcase name="ShippingFlat_2552">
+      <result>0</result>
+      <start>5:43:58 AM</start>
+      <end>5:45:23 AM</end>
+      <log>
+      </log>
+      <screen>
+      </screen>
+    </testcase>
+  </userstory>
+</test>
