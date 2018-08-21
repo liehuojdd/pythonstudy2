@@ -1,0 +1,8 @@
+node --experimental-modules loginstory.mjs
+
+            "program": "${workspaceFolder}/loginstory.mjs",
+            "runtimeArgs":[ 
+                "--experimental-modules" 
+            ] 
+                
+        }
