@@ -26,15 +26,13 @@ import mechanize
 import time
 import cookielib
 import sys
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 class biqu:
-    # page start: https://www.vodtw.com/html/book/15/15248/6584416.html
-    # local host: http://localhost:8082/test/note.html
-    #url = 'https://www.biqudao.com/bqge10365/6520029.html'
-    # url = 'https://www.biqudao.com/bqge98325/5997848.html'  lao qian
-    url = 'https://www.biqudao.com/bqge98325/5997848.htmll'
+
+    url = b'f700006ae880854e6079dc12e996d04ae90f744d3dd123214ccc196f100cc88a659c7150e2390700fae6338252bad79e'
     urlEnd = 'bqge98325'#Seperate the page number by url
     fileName='test1.txt'
     sleepTime=1

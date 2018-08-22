@@ -30,11 +30,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 class pinshu:
-    # page start: https://www.vodtw.com/html/book/15/15248/6584416.html
-    # local host: http://localhost:8082/test/note.html
-    #url = 'https://www.vodtw.com/html/book/15/15248/6584532.html'
 
-    url = 'https://www.vodtw.com/html/book/30/30885/14618577.html'#透视神眼
+    url = b'5a15e50b2e5c7001ea7d08fe0c7f77d424f099920b932262d0b5e2dc5e930152fbb2ff47b7b5b36a957c564678feb63c4ac7e93a326ed37d44ef4f4d36ac9412'
     urlEnd = '30885'#Seperate the page number by url
     fileName='test1.txt'
     sleepTime=1

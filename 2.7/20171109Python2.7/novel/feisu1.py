@@ -10,8 +10,7 @@ import cookielib
 
 class feisu:
     note = ''
-    #http://www.feizw.com/Html/10838/6662573.html
-    url = 'http://www.feizw.com/Html/10838/6923530.html'
+    url = b'6e2acd1b49c7072ad738c77a15a02abbc3a740fb0f715fc8f93e13de5d538cffc36bb4dccfb7913e3770ef54dc1c4135'
     urlEnd = '10838'
     fileName='test1.txt'
     pageTotal=2
