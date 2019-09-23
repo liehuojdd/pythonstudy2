@@ -1,2 +1,4 @@
 *.pyc
 .idea/
+stage1/Story/
+stage1/TestReport/

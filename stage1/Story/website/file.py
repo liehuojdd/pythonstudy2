@@ -10,12 +10,14 @@ import sys
     'U'       universal newline mode (deprecated)
 '''
 class file:
+    #encode = 'GBK'
+    encode = 'UTF-8'
     def __init__(self,path):
-        self.f1 = open(path, 'a',encoding='GBK')
+        self.f1 = open(path, 'a',encoding=self.encode)
 
     def write(self,content):
         #self.f1.write(content.encode("GBK"))
-        newcontent=str(content.encode("GBK"),encoding='GBK')
+        newcontent=str(content.encode(self.encode),encoding=self.encode)
         self.f1.write(newcontent)
         self.f1.write('\n')
     def close(self):
