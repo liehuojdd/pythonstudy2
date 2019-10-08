@@ -12,7 +12,7 @@ payload = {'key1': 'value1', 'key2': 'value2'}
 r = requests.post("https://httpbin.org/post", data=payload)
 payload_tuples = [('key1', 'value1'), ('key1', 'value2')]
 ayload_dict = {'key1': ['value1', 'value2']}
-#print(r.text)
+print(r.text)
 
 url = 'https://api.github.com/some/endpoint'
 payload = {'some': 'data'}
@@ -28,4 +28,4 @@ files = {'file': ('report.csv', 'some,data,to,send\nanother,row,to,send\n')}
 
 
 r = requests.post(url, files=files)
-r.text
+print(r.text)
